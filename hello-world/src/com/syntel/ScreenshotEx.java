@@ -34,7 +34,7 @@ public class ScreenshotEx {
 	
 	@Test
 	public void robotScreenshotEx() throws InterruptedException, IOException, AWTException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Apache\\chrome-driver-87.0.4280.88\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",  "C:\\Apache\\chrome-driver-87.0.4280.88\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 	    driver.get("http://demo.automationtesting.in/Alerts.html");
 	    driver.findElement(By.xpath("//button[@onclick='alertbox()']")).click();
