@@ -3,7 +3,7 @@ package com.example.demo;
 public class LoginPojo {
 
 	
-	private String email;
+	private String emailValue;
 	
 	private String password;
 
