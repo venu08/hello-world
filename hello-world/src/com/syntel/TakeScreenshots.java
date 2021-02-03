@@ -26,7 +26,7 @@ public class TakeScreenshots {
          File file = new File(dirPath);
             if (!file.exists()) {
                 if (file.mkdir()) {
-                    System.out.println("Directory is created!");
+                    System.out.println("Directory  is created!");
                 } else {
                     System.out.println("Failed to create directory!");
                 }

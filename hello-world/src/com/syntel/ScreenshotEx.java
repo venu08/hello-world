@@ -23,7 +23,7 @@ public class ScreenshotEx {
 	
 	@Test
 	public void takesScreenshotEx() throws InterruptedException, IOException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Apache\\chrome-driver-87.0.4280.88\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",  "C:\\Apache\\chrome-driver-87.0.4280.88\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 	    driver.get("http://demo.automationtesting.in/Alerts.html");
 	    TakesScreenshot screen = (TakesScreenshot) driver;
